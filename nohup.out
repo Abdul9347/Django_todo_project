@@ -1,0 +1,60 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[15/Dec/2023 19:47:53] "GET /todos/ HTTP/1.1" 200 3515
+[15/Dec/2023 19:47:53] "GET /static/css/style.css HTTP/1.1" 304 0
+[15/Dec/2023 19:47:54] "GET /todos/ HTTP/1.1" 200 3515
+[15/Dec/2023 19:47:54] "GET /static/css/style.css HTTP/1.1" 200 225
+[15/Dec/2023 19:47:54] "GET /todos/ HTTP/1.1" 200 3515
+[15/Dec/2023 19:47:55] "GET /static/css/style.css HTTP/1.1" 200 225
+[15/Dec/2023 19:47:55] "GET /todos/ HTTP/1.1" 200 3515
+[15/Dec/2023 19:47:55] "GET /static/css/style.css HTTP/1.1" 200 225
+[15/Dec/2023 20:12:57] "GET / HTTP/1.1" 302 0
+[15/Dec/2023 20:12:58] "GET /todos HTTP/1.1" 301 0
+[15/Dec/2023 20:12:58] code 400, message Bad request version ('À\x14À')
+[15/Dec/2023 20:12:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Dec/2023 20:28:50] code 400, message Bad request version ('À\x14À')
+[15/Dec/2023 20:28:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Dec/2023 20:28:50] code 400, message Bad request version ('\x8fYÇ')
+[15/Dec/2023 20:28:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Dec/2023 20:28:51] "GET / HTTP/1.1" 302 0
+[15/Dec/2023 20:28:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x17j\x89ä\x90\x83ÿ\x8eú\x89Ê@\x10iä\x9c2\x99Ð´K1\x81Ò²\x01fõ|,¯\x92\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[15/Dec/2023 20:28:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+/root/projoct/django-todo-project/todoApp/settings.py changed, reloading.
+Performing system checks...
+
+December 17, 2023 - 19:35:53
+Django version 5.0, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[17/Dec/2023 19:37:18] "GET / HTTP/1.1" 302 0
+[17/Dec/2023 19:37:18] "GET /todos HTTP/1.1" 301 0
+[17/Dec/2023 19:37:19] "GET /todos/ HTTP/1.1" 200 3515
+[17/Dec/2023 19:37:19] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[17/Dec/2023 19:37:20] "GET /favicon.ico HTTP/1.1" 404 2574
+[17/Dec/2023 19:57:10] "GET / HTTP/1.1" 302 0
+[17/Dec/2023 19:57:10] "GET /todos HTTP/1.1" 301 0
+[17/Dec/2023 19:57:10] "GET /todos/ HTTP/1.1" 200 3515
